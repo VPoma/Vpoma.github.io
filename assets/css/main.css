@@ -154,7 +154,7 @@ h6 {
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
-  border-right: 5px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-right: 5px solid color-mix(in srgb, #00c3c3, transparent 20%);
 }
 
 .header .profile-img img {
@@ -1273,6 +1273,15 @@ section,
 
 .titulo2 {
   -webkit-text-stroke: 0.5px rgb(0, 200, 200);
+}
+
+#video-fondo {
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%;
+  height : 100%;
+  object-fit : cover;
 }
 
 /*--------------------------------------------------------------
